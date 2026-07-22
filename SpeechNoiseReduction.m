@@ -73,4 +73,8 @@ fprintf('\n--- Playing NOISY Audio ---\n');
 clear sound; soundsc(noisy_n, fs); pause(length(noisy_n)/fs + 1);
 
 fprintf('\n--- Playing FILTERED (Noise Reduced) Audio ---\n');
+<<<<<<< HEAD
 clear sound; soundsc(filtered_n, fs); pause(length(filtered_n)/fs + 1);
+=======
+clear sound; soundsc(filtered_n, fs); pause(length(filtered_n)/fs + 1);
+>>>>>>> c7963babb0ec2f92c5070cf94e71243414009418
